@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<types>
+    <type speed="45" numLanes="3" priority="3" id="3L45"/>
+    <type speed="15" numLanes="2" priority="3" id="2L15"/>
+    <type speed="30" numLanes="3" priority="2" id="3L30"/>
+</types>

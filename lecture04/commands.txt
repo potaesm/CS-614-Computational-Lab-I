@@ -1,0 +1,2 @@
+netconvert --osm-files map.osm -o map.net.xml
+python3 $SUMO_HOME/tools/randomTrips.py -n map.net.xml -r map.rou.xml -e 50 -l

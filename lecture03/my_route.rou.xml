@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<routes>
+    <vType sigma="0.0" maxSpeed="100.0" length="2.0" id="Car" decel="5.0" accel="1.0"/>
+    <vType sigma="0.0" maxSpeed="1.0" length="12.0" id="Bus" decel="5.0" accel="1.0"/>
+    <route id="route0" edges="1to2 2to3 3to4 out"/>
+    <vehicle id="veh0" type="Bus" route="route0" depart="10"/>
+    <route id="route1" edges="2to3 3to4"/>
+    <vehicle id="veh1" type="Car" route="route1" depart="10"/>
+    <route id="route2" edges="3to4 out"/>
+    <vehicle id="veh2" type="Car" route="route2" depart="30"/>
+</routes>

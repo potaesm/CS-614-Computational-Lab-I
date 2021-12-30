@@ -1,0 +1,2 @@
+netconvert --node-files my_nodes.nod.xml --edge-files my_edges.edg.xml -t my_type.type.xml -o my_net.net.xml
+sumo-gui -c my_config_file.sumocfg
